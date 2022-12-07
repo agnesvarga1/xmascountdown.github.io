@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  background-color: #a6cf98;
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+}
+
+.container {
+  width: 350px;
+  height: 100vh;
+  margin: 32px auto 0 auto;
+}
+.counter-main {
+  text-align: center;
+  color: #c21010;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 20px 45px;
+  border-radius: 8px;
+  position: absolute;
+  top: 55px;
+  width: 100%;
+  z-index: 1;
+}
+h1 {
+  font-size: 1.2rem;
+}
+.counter {
+  color: #fffde3;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.counter-block:last-child {
+  color: #f2ad41;
+}
+.xmas-stage {
+  position: relative;
+  height: 100vh;
+}
+
+.gift {
+  position: absolute;
+  width: 100px;
+  bottom: 250px;
+}
+
+.gift_1 {
+  left: 30px;
+  bottom: 200px;
+}
+
+.gift_2 {
+  left: 100px;
+}
+
+.gift_3 {
+  left: 190px;
+}
+
+.ball {
+  position: absolute;
+  width: 50px;
+}
+.ball_1 {
+  top: 170px;
+  left: 90px;
+}
+.ball_2 {
+  top: 190px;
+  right: 100px;
+}
+.ball_3 {
+  top: 240px;
+  left: 120px;
+}
+
+.candy {
+  top: 150px;
+  left: 140px;
+}
+
+.invisible {
+  display: none;
+}
