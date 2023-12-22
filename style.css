@@ -52,26 +52,20 @@ h1 {
 }
 .xmas-stage {
   position: relative;
-  height: 100vh;
+  padding-bottom: 3.5rem;
 }
-
-.gift {
+.gift-box {
   position: absolute;
-  width: 100px;
-  bottom: 250px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
-
-.gift_1 {
-  left: 30px;
-  bottom: 200px;
-}
-
-.gift_2 {
-  left: 100px;
-}
-
-.gift_3 {
-  left: 190px;
+.gift {
+  display: inline-block;
+  margin-top: 5rem;
+  width: 120px;
+  height: 120px;
 }
 
 .ball {
