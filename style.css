@@ -53,6 +53,8 @@ h1 {
 .xmas-stage {
   position: relative;
   padding-bottom: 3.5rem;
+
+  overflow: hidden;
 }
 .gift-box {
   position: absolute;
@@ -92,4 +94,38 @@ h1 {
 
 .invisible {
   display: none;
+}
+
+#santa {
+  position: absolute;
+  width: 150px;
+  bottom: 100px;
+  right: -150px;
+
+  animation-name: flyingSanta;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes flyingSanta {
+  0% {
+    right: -150px;
+  }
+  25% {
+    right: 15%;
+  }
+  50% {
+    left: 30%;
+  }
+
+  100% {
+    left: -150px;
+  }
+}
+
+@media only screen and (min-width: 320px and max-width:550px) {
+  .xmas-stage {
+    width: 100vw;
+  }
 }
